@@ -50,7 +50,7 @@ namespace StickGame
                             }
                         }
 
-                        for (int i = 0; i < shaderData.ReMainingKeyWords.Length - 1; i++)
+                        for (int i = 0; i < shaderData.ReMainingKeyWords.Length; i++)
                         {
                             string keyword = shaderData.ReMainingKeyWords[i];
                             dicAllKeywrods[keyword] = keyword;
