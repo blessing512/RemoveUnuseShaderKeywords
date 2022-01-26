@@ -119,7 +119,7 @@ namespace StickGame
                 {
                     var _mat = obj as Material;
 
-                    for(int i=0; i<_mat.shaderKeywords.Length - 1;i++)
+                    for(int i=0; i<_mat.shaderKeywords.Length;i++)
                     {
                         string strKeyword = _mat.shaderKeywords[i];
                         if (dicAllKeywrods.ContainsKey(strKeyword))
